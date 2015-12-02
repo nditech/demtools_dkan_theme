@@ -25,7 +25,7 @@ $info = array(
   ),
   // Pre-defined color schemes.
   'schemes' => array(
-    'default' => array(
+    'dkan_blue' => array(
       'title' => t('DKAN (default)'),
       'base' => '#eeeeee',
       'colors' => array(
@@ -46,7 +46,7 @@ $info = array(
         'linkhover' => '#002245',
       ),
     ),
-    'ndi_dkan' => array(
+    'default' => array(
       'title' => t('NDI DKAN (green)'),
       'base' => '#008651',
       'colors' => array(
