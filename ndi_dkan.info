@@ -1,0 +1,72 @@
+name        = NDI DKAN Theme
+description = A theme based on Nuboot Radix.
+screenshot  = screenshot.png
+core        = 7.x
+
+; Base - Nuboot Radix
+base theme  = nuboot_radix
+
+; Stylesheets
+stylesheets[all][]   = assets/stylesheets/custom-styles.css
+
+; Javascript
+scripts[] = assets/javascripts/custom-script.js
+
+; Regions
+regions[header]         = 'Header'
+regions[highlighted]    = 'Highlighted'
+regions[preface_first]  = 'Preface First'
+regions[preface_second] = 'Preface Second'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[postscript_first]   = 'Postscript First'
+regions[postscript_second]  = 'Postscript Second'
+regions[bottom_content] = Bottom Content
+regions[footer_first]   = Footer First
+regions[footer_second]  = Footer Second
+regions[footer_third]   = Footer Third
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+; Default Theme Settings
+settings[site_name] = DKAN | English
+settings[toggle_logo] = 0
+settings[toggle_name] = 1
+settings[toggle_slogan] = 0
+settings[toggle_node_user_picture] = 1
+settings[toggle_comment_user_picture] = 1
+settings[toggle_comment_user_verification] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
+settings[logo_path] = 'profiles/dkan/themes/contrib/nuboot_radix/logo.svg'
+settings[hero_path] = 'profiles/dkan/themes/contrib/nuboot_radix/assets/images/hero.jpg'
+settings[copyright][value] = 'Powered by <a href="http://nucivic.com/dkan">DKAN</a>, a project of <a href="http://nucivic.com">NuCivic</a>'
+settings[copyright][format] = 'html'
+
+; Breadcrumbs
+settings[bootstrap_breadcrumb] = 1
+settings[bootstrap_breadcrumb_home] = 0
+settings[bootstrap_breadcrumb_title] = 0
+
+; Navbar
+settings[bootstrap_navbar_position] = ''
+settings[bootstrap_navbar_inverse] = 0
+
+; Region Wells
+settings[bootstrap_region_well-navigation] = ''
+settings[bootstrap_region_well-header] = ''
+settings[bootstrap_region_well-highlighted] = ''
+settings[bootstrap_region_well-help] = ''
+settings[bootstrap_region_well-content] = ''
+settings[bootstrap_region_well-sidebar_first] = ''
+settings[bootstrap_region_well-sidebar_second] = ''
+settings[bootstrap_region_well-footer] = ''
+
+; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+settings[cdn_bootstrap] = 0
+
