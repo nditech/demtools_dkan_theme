@@ -449,3 +449,7 @@ ul.quicktabs-tabs .active a {
 	}
 }
 
+.node-type-question .field-label, .view-questions .views-label-field-topic {
+        margin:0 10px 0 0;
+        font-size:inherit;
+}
