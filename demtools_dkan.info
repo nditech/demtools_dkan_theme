@@ -1,5 +1,5 @@
-name        = NDI DKAN Theme
-description = A theme based on Nuboot Radix.
+name        = DemTools DKAN Theme
+description = A theme based on Nuboot Radix for DemTools (http://dem.tools/dkan).
 screenshot  = screenshot.png
 core        = 7.x
 
